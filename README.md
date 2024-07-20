@@ -4,6 +4,10 @@ Proyecto que realiza el consumo del api openweather
 # OpenWeather API
 La url y el api key se encuentran definidos en el archivo properties del proyecto para poder ser consumido el api.
 
+Para copiar el proyecto localmente ejecutar:
+
+git clone -b master https://github.com/paulLetechipia/openweather.git
+
 # Base de datos MSSQL
 El proyecto trabaja con una base de datos mssql, para poder levantarla es necesario realizar los siguientes pasos en docker:
 +docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=WeatherP455W0RD" -e "MSSQL_PID=Express" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
